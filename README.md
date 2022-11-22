@@ -5,7 +5,7 @@
 
 I have decided to treat myself to a long holiday vacation in Honolulu, Hawaii! To help with my trip planning, I did climate analysis on the area. The following sections outline the steps I did to accomplish this task:
 
-### Part 1: Climate Analysis and Exploration
+### Part 1: Climate Analysis and Exploration ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
 
 In this section, I used Python and SQLAlchemy to perform basic climate analysis and data exploration of my climate database. Completed the following tasks by using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
@@ -32,9 +32,10 @@ To perform an analysis of precipitation in the area, did the following:
 * Sorted the DataFrame values by `date`.
 
 * Ploted the results by using the DataFrame `plot` method:
-
+![recent_precipitation_data](https://user-images.githubusercontent.com/112845583/203435968-41ca4482-0b9b-4d78-927a-e143a754f6e1.png)
 
 * Used Pandas to print the summary statistics for the precipitation data.
+<img width="130" alt="precipitation_stats" src="https://user-images.githubusercontent.com/112845583/203436035-339fef88-a38d-4345-80b2-0535492be202.png">
 
 #### Station Analysis
 
@@ -57,12 +58,13 @@ To perform an analysis of stations in the area, did the following:
     * Queried the previous 12 months of temperature observation data for this station.
 
     * Ploted the results as a histogram with `bins=12`:
+    ![Temperature_histogram](https://user-images.githubusercontent.com/112845583/203436144-19e6d685-28c7-4aae-912b-8dd3f2584e2f.png)
 
  * Closed session.
 
 - - -
 
-### Part 2: Designing Climate App
+### Part 2: Designing Climate App ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
 
 After completing the initial analysis, designed a Flask API based on the above queries.
 
@@ -73,6 +75,7 @@ Used Flask to create routes, as follows:
     * Homepage.
 
     * Listed all available routes.
+    <img width="229" alt="Flask" src="https://user-images.githubusercontent.com/112845583/203437109-41ca2797-c13d-4ec0-9248-0571ddf2460a.png">
 
 * `/api/v1.0/precipitation`
 
@@ -98,7 +101,7 @@ Used Flask to create routes, as follows:
 
     * When given the start and the end date, calculated the `TMIN`, `TAVG`, and `TMAX` for dates from the start date through the end date (inclusive).
 
-#### Bonus Temperature Analysis 1
+#### Bonus Temperature Analysis 1 ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_temp_analysis_bonus_1.ipynb]
 
 Conducted an analysis to answer the following question: Hawaii is reputed to enjoy mild weather all year round. Is there a meaningful difference between the temperatures in, for example, June and December?
 
@@ -112,13 +115,7 @@ Conducted an analysis to answer the following question: Hawaii is reputed to enj
 * Identified the average temperature in June at all stations across all available years in the dataset. Did the same for the temperature in December.
 
 * Used the t-test to determine whether the difference in means, if any, is statistically significant. 
-
-
-## Rubric
-
-[Unit 10 Homework Rubric](https://docs.google.com/document/d/1gT29iMF3avSvJruKpcHY4qovP5QitgXePqtjC6XESI0/edit?usp=sharing)
-
-- - -
+<img width="927" alt="Analysis" src="https://user-images.githubusercontent.com/112845583/203436588-2c2697cd-a1d9-4c55-ae0f-f2f34d92cacc.png">
 
 ## References
 
