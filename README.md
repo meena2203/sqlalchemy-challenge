@@ -1,15 +1,15 @@
 # Unit 10 Homework: Surf’s Up
-![surfs-up.png](Images/surfs-up.png)
 
 ## Assignment Overview
 
 I have decided to treat myself to a long holiday vacation in Honolulu, Hawaii! To help with my trip planning, I did climate analysis on the area. The following sections outline the steps I did to accomplish this task:
 
-### Part 1: Climate Analysis and Exploration ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
+### Part 1: Climate Analysis and Exploration 
+![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
 
 In this section, I used Python and SQLAlchemy to perform basic climate analysis and data exploration of my climate database. Completed the following tasks by using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-* Used the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete my climate analysis and data exploration.
+* Used the provided [hawaii.sqlite](Resources/hawaii.sqlite) files to complete my climate analysis and data exploration.
 
 * Used SQLAlchemy’s `create_engine` to connect to my SQLite database.
 
@@ -58,13 +58,15 @@ To perform an analysis of stations in the area, did the following:
     * Queried the previous 12 months of temperature observation data for this station.
 
     * Ploted the results as a histogram with `bins=12`:
+    
     ![Temperature_histogram](https://user-images.githubusercontent.com/112845583/203436144-19e6d685-28c7-4aae-912b-8dd3f2584e2f.png)
 
  * Closed session.
 
 - - -
 
-### Part 2: Designing Climate App ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
+### Part 2: 
+Designing Climate App ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
 
 After completing the initial analysis, designed a Flask API based on the above queries.
 
@@ -101,7 +103,8 @@ Used Flask to create routes, as follows:
 
     * When given the start and the end date, calculated the `TMIN`, `TAVG`, and `TMAX` for dates from the start date through the end date (inclusive).
 
-#### Bonus Temperature Analysis 1 ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_temp_analysis_bonus_1.ipynb]
+#### Bonus Temperature Analysis 1 
+![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_temp_analysis_bonus_1.ipynb]
 
 Conducted an analysis to answer the following question: Hawaii is reputed to enjoy mild weather all year round. Is there a meaningful difference between the temperatures in, for example, June and December?
 
