@@ -65,8 +65,8 @@ To perform an analysis of stations in the area, did the following:
 
 - - -
 
-### Part 2: 
-Designing Climate App ![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
+### Part 2: Designing Climate App 
+![https://github.com/meena2203/sqlalchemy-challenge/blob/main/MR_climate_app.py]
 
 After completing the initial analysis, designed a Flask API based on the above queries.
 
